@@ -1,15 +1,18 @@
 # Emotion Atlas
 
-Emotion Atlas is a small, English-only interactive guide for exploring
-emotional vocabulary. It includes four static pages:
+Emotion Atlas helps users build a richer emotional vocabulary through four
+core features:
 
-- Emotion Explorer
-- Compare Emotions
-- Body Signals
-- Emotion Intensity
+- **Emotion Explorer** — Browse emotion families (joy, sadness, anger, fear,
+  surprise, disgust), discover related words, common situations, and the
+  subtle differences between feelings.
+- **Compare Emotions** — Place two commonly confused feelings side by side to
+  understand the distinction hidden between them.
+- **Body Signals** — Map emotions to physical sensations and explore the
+  language people use when feelings are felt through the body.
+- **Emotion Intensity** — Move across an intensity scale to find words that
+  match not just the type of feeling, but how strong it feels.
 
-The site is entirely client-side. It has no backend, API, account system,
-database, analytics, or user-data collection.
 
 ## Local development
 
@@ -28,12 +31,3 @@ Open `http://localhost:3000`.
 npm run build
 npm test
 ```
-
-The deployable static site is generated in `out/`.
-
-## GitHub Pages
-
-Push the repository to GitHub and enable **Settings → Pages → Source → GitHub
-Actions**. The included workflow builds and publishes the static export. It
-automatically supports both repository Pages URLs and `username.github.io`
-sites.
